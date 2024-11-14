@@ -26,5 +26,24 @@ public class Runner {
 	Horse animal3 = new Horse("Cobey", 2.1, "Stuttgart");
 	// Printing information about shark to console
 	System.out.println(animal3);
+	
+	//Calling method move from super class
+	System.out.println(animal1.move());
+	
+	//Calling method move from sub class
+	System.out.println(animal3.move());
+	
+	//Calling method move from sub class with type of super one
+	System.out.println(animal2.move());
+	
+	//Calling animal by name given from the beginning
+	System.out.println(animal1.getName());
+	
+	//Calling animal by name given from the beginning
+	System.out.println(animal2.getName());
+		
+	//Calling animal by name given from the beginning
+	System.out.println(animal3.getName());
+	
 	}
 }
